@@ -1,0 +1,40 @@
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;    
+}
+
+.board-row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+
+.board-column{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #d3d3d3;
+    width: 60px;
+    height: 60px;
+}
+
+.keyboard-row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+
+.keyboard-column{
+    display: flex;
+    background-color: #d3d3d3;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #d3d3d3;
+    width: 60px;
+    height: 60px;
+}
